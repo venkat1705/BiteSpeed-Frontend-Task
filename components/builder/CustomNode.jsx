@@ -2,6 +2,7 @@ import { MessageSquareTextIcon } from "lucide-react";
 import Image from "next/image";
 import React, { memo } from "react";
 import { Handle, Position } from "reactflow";
+import whatsappSvg from "../../assets/whatsappicon.svg";
 
 function CustomNode({ data }) {
   return (
@@ -14,7 +15,7 @@ function CustomNode({ data }) {
           </p>
         </div>
         <div>
-          <Image src="/whatsappicon.svg" width={20} height={20} />
+          <Image src={whatsappSvg} width={20} height={20} />
         </div>
       </div>
 
